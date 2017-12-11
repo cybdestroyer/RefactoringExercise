@@ -1,0 +1,9 @@
+C:\Users\TeranL\Downloads\bike-distributor-refactor\BikeDistributor.Test\obj\Debug\BikeDistributor.Test.csprojResolveAssemblyReference.cache
+C:\Users\TeranL\Downloads\bike-distributor-refactor\BikeDistributor.Test\obj\Debug\BikeDistributor.Test.csproj.CoreCompileInputs.cache
+C:\Users\TeranL\Downloads\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\BikeDistributor.Test.dll
+C:\Users\TeranL\Downloads\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\BikeDistributor.Test.pdb
+C:\Users\TeranL\Downloads\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\BikeDistributor.dll
+C:\Users\TeranL\Downloads\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\TeranL\Downloads\bike-distributor-refactor\BikeDistributor.Test\bin\Debug\BikeDistributor.pdb
+C:\Users\TeranL\Downloads\bike-distributor-refactor\BikeDistributor.Test\obj\Debug\BikeDistributor.Test.dll
+C:\Users\TeranL\Downloads\bike-distributor-refactor\BikeDistributor.Test\obj\Debug\BikeDistributor.Test.pdb
