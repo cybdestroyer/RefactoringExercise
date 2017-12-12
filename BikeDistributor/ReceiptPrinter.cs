@@ -60,32 +60,24 @@ namespace BikeDistributor
 
         private double Amount(Line line)
         {
-            var price = 0d;
-
             switch (line.Bike.Price)
             {
                 case (int)Bike.Catalog.OneThousand:
                     if (line.Quantity >= 20)
-                        price += line.Quantity * line.Bike.Price * .9d;
-                    else
-                        price += line.Quantity * line.Bike.Price;
+                        return line.Quantity * line.Bike.Price * .9d;
                     break;
                 case (int)Bike.Catalog.TwoThousand:
                     if (line.Quantity >= 10)
-                        price += line.Quantity * line.Bike.Price * .8d;
-                    else
-                        price += line.Quantity * line.Bike.Price;
+                        return line.Quantity * line.Bike.Price * .8d;
                     break;
                 case (int)Bike.Catalog.FiveThousand:
                     if (line.Quantity >= 5)
-                        price += line.Quantity * line.Bike.Price * .8d;
-                    else
-                        price += line.Quantity * line.Bike.Price;
+                        return line.Quantity * line.Bike.Price * .8d;
                     break;
                 default: break;
             }
 
-            return price;
+            return line.Quantity * line.Bike.Price;
         }
 
         protected enum Template
@@ -123,7 +115,7 @@ namespace BikeDistributor
                 public override string Footer { get { return ""; } }
             }
 
-            // Sample of 
+            // Sample of new format type
             public class JSON : Format
             {
                 public override string Header => throw new NotImplementedException();

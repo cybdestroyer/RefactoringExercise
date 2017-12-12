@@ -23,6 +23,5 @@
         {
             return BuildReceipt(Company, ReceiptPrinter.Template.HtmlMarkup);
         }
-
     }
 }

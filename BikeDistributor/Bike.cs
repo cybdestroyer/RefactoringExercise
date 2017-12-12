@@ -11,6 +11,7 @@
         {
             OneThousand = 1000,
             TwoThousand = 2000,
+            ThreeThousand = 3000,
             FiveThousand = 5000
         }
 
